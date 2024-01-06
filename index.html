@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div>
       <label for="userArray">Enter Array (comma-separated):</label>
-      <input type="text" id="userArray" placeholder="Enter numbers" />
+      <input
+        type="text"
+        id="userArray"
+        placeholder="ex: 1,2,3,4,5,6,7......."
+      />
+      <button onclick="generateUserArray()">Generate Array from Input</button>
     </div>
     <div id="array-container"></div>
-    <button onclick="generateUserArray()">Generate Array from Input</button>
     <select id="sortingAlgorithm">
       <option value="bubbleSort">Bubble Sort</option>
       <option value="selectionSort">Selection Sort</option>
