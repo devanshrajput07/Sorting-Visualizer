@@ -34,6 +34,7 @@ button {
 
 select {
   padding: 10px;
+  margin: 10px;
   font-size: 16px;
 }
 
@@ -41,4 +42,17 @@ input {
   padding: 10px;
   margin: 10px;
   font-size: 16px;
+}
+
+.array-bar {
+  display: inline-block;
+  margin: 0 1px;
+  background-color: #3498db;
+  width: 25px;
+  border: 1px solid #2c3e50;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  transition: height 0.2s, background-color 0.2s;
 }
